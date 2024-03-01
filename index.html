@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Valentine</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="heart.png" />
+
+</head>
+<body>
+  <script>
+    function playaudio(){
+let x = document.querySelector("#meuAudio");
+x.play();
+    }
+  </script>
+<!-- partial:index.partial.html -->
+<link href='https://fonts.googleapis.com/css?family=Solitreo' rel='stylesheet'>
+<div>
+  <audio id="meuAudio" controls>
+      <source src="./okokoklalalala.mp3" type="audio/mpeg">
+     </audio>
+     <div class="texto_audio">
+      <p> Boa Noite meu querido amor! </p><br><p>aperte no coração →  </p>
+     <button onclick="playaudio()"> ♥</button> 
+     </div>
+     <p> Agora pode abrir o cartão ☺</p>
+</div>
+    
+<br>
+<div class="container">
+  <div class="envelope"></div>
+  <div class="card">
+    <h1 class="message">Feliz mais um mes de namoro<br> Eu te amo muito!<br><br>de Rayza para Rian</h1>
+    <div class="heart"></div>
+  </div>
+  <div class="cover"></div>
+  <div class="lid"></div>
+  <div class="shadow"></div>
+ 
+</div>
+
+
+</body>
+</html>
